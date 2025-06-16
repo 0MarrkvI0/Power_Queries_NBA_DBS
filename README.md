@@ -26,29 +26,29 @@ Dataset vychádza z [Kaggle NBA datasetu](https://www.kaggle.com/datasets/wyatto
 
 ## Riešené úlohy
 
-### 1. Rebound → Field Goal bez iných udalostí (1 bod)
+### 1. Rebound → Field Goal bez iných udalostí 
 - Vyhľadanie situácií, kde hráč po doskoku okamžite skóroval.
 - Výstup: `player_id`, `first_name`, `last_name`, `period`, `period_time`.
 
-### 2. Zmeny tímov počas sezóny (3 body)
+### 2. Zmeny tímov počas sezóny
 - Detekcia hráčov, ktorí počas sezóny zmenili tím.
 - Výpočet: `PPG`, `APG`, `games` pre každý tím.
 - Zoradenie: podľa počtu zmien, aktivity hráča, mena.
 
-### 3. Podrobné štatistiky hráčov v zápase (3 body)
+### 3. Podrobné štatistiky hráčov v zápase
 - Výpočet:
   - `points`, `2PM`, `3PM`, `missed shots`
   - `shooting %`, `FTM`, `missed free throws`, `FT %`
 
-### 4. Triple Double a série (3 body)
+### 4. Triple Double a série
 - Hráči, ktorí dosiahli triple double (body, asistencie, doskoky).
 - Výpočet najdlhšej nepretržitej série.
 
-### 5. Domáce vs. vonkajšie zápasy tímov (2 body)
+### 5. Domáce vs. vonkajšie zápasy tímov
 - Výpočet počtu domácich a vonkajších zápasov + ich percentuálne zastúpenie.
 - Zohľadnenie historických názvov tímov.
 
-### 6. Stabilita výkonu hráča (2 body)
+### 6. Stabilita výkonu hráča 
 - Vyhľadanie sezón, kde hráč odohral aspoň 50 zápasov.
 - Výpočet sezónnej stability na základe striedania úspešnosti streľby.
 
